@@ -2,7 +2,7 @@
 describe 'Combobox', :dropdown do
 
     after(:each) do
-        visit 'https://training-wheels-protocol.herokuapp.com/dropdown'
+        visit '/dropdown'
     end
     
     it 'Item específico simples' do

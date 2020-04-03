@@ -2,7 +2,7 @@
 describe 'Ids Dinamicos', :idsDinamicos do
 
     before(:each) do
-        visit 'https://training-wheels-protocol.herokuapp.com/access'
+        visit '/access'
     end
     
     it 'Cadastro com sucesso' do

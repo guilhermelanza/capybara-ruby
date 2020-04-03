@@ -1,8 +1,8 @@
 
-describe 'Forms' do
+describe 'Forms', :loginn do
 
     before(:each) do
-        visit 'https://training-wheels-protocol.herokuapp.com/login'
+        visit '/login'
     end
     
     it 'login com sucesso' do
